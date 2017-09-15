@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomatedCodeTesting", "Aut
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAutomatedCodeTesting", "TestAutomatedCodeTesting\TestAutomatedCodeTesting.csproj", "{1A4A63A9-A1D7-4B20-B15A-4AC587AD39DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSuiteAutomatedCodeTesting", "TestSuiteAutomatedCodeTesting\TestSuiteAutomatedCodeTesting.csproj", "{433EC6CD-3DB0-4FD2-9B9C-74D144A6F021}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1A4A63A9-A1D7-4B20-B15A-4AC587AD39DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A4A63A9-A1D7-4B20-B15A-4AC587AD39DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A4A63A9-A1D7-4B20-B15A-4AC587AD39DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{433EC6CD-3DB0-4FD2-9B9C-74D144A6F021}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{433EC6CD-3DB0-4FD2-9B9C-74D144A6F021}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{433EC6CD-3DB0-4FD2-9B9C-74D144A6F021}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{433EC6CD-3DB0-4FD2-9B9C-74D144A6F021}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
