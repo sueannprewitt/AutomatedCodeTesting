@@ -92,6 +92,26 @@ namespace TestSuiteAutomatedCodeTesting
 
         }
 
+        [TestMethod]
+        public void TestSquareRootOf0()
+        {
+            Squared squared = new AutomatedCodeTesting.Squared();
+            squared.Sqdnumber = 0;
+            var result = squared.Calculate();
+            Assert.AreEqual(0, result, "Sqrt of 0");
+
+        }
+
+        [TestMethod]
+        public void TestSquareRootOfNeg3()
+        {
+            Squared squared = new AutomatedCodeTesting.Squared();
+            squared.Sqdnumber = -3;
+            var result = squared.Calculate();
+            Assert.AreEqual(1.732, result, "Sqrt of -3");
+
+        }
+
 
 
         [TestMethod]
