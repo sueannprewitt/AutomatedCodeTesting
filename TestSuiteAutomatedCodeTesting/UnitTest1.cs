@@ -7,6 +7,90 @@ namespace TestSuiteAutomatedCodeTesting
     [TestClass]
     public class UnitTest1
     {
+        [TestMethod]
+        public void TestSquaredValues()
+        {
+            Squared squared = new AutomatedCodeTesting.Squared();
+            squared.Sqdnumber = 3;
+            var result = squared.Calculate();
+            Assert.AreEqual(9, result, "Sqrt of 3");
+
+            squared.Sqdnumber = 2;
+            result = squared.Calculate();
+            Assert.AreEqual(4, result, "Sqrt of 2");
+
+            squared.Sqdnumber = 25;
+            result = squared.Calculate();
+            Assert.AreEqual(625, result, "Sqrt of 25");
+
+        }
+
+            [TestMethod]
+            public void TestSquareRootOf6()
+        {
+            Squared squared = new AutomatedCodeTesting.Squared();
+            squared.Sqdnumber = 6;
+            var result = squared.Calculate();
+            Assert.AreEqual(36, result, "Sqrt of 6");
+
+        }
+
+        [TestMethod]
+        public void TestSquareRootOf36()
+        {
+            Squared squared = new AutomatedCodeTesting.Squared();
+            squared.Sqdnumber = 36;
+            var result = squared.Calculate();
+            Assert.AreEqual(36, result, "Sqrt of 36");
+
+        }
+
+        [TestMethod]
+        public void TestSquareRootOf55()
+        {
+            Squared squared = new AutomatedCodeTesting.Squared();
+            squared.Sqdnumber = 55;
+            var result = squared.Calculate();
+            Assert.AreEqual(3,025, result, "Sqrt of 55");
+
+        }
+        [TestMethod]
+        public void TestSquareRootOf100()
+        {
+            Squared squared = new AutomatedCodeTesting.Squared();
+            squared.Sqdnumber = 100;
+            var result = squared.Calculate();
+            Assert.AreEqual(360, result, "Sqrt of 100");
+
+        }
+
+        [TestMethod]
+        public void TestSquareRootOf600()
+        {
+            Squared squared = new AutomatedCodeTesting.Squared();
+            squared.Sqdnumber = 600;
+            var result = squared.Calculate();
+            Assert.AreEqual(360,000, result, "Sqrt of 600");
+        }
+
+        [TestMethod]
+        public void TestSquareRootOf44()
+        {
+            Squared squared = new AutomatedCodeTesting.Squared();
+            squared.Sqdnumber = 44;
+            var result = squared.Calculate();
+            Assert.AreEqual(1,936, result, "Sqrt of 44");
+
+        }
+        [TestMethod]
+        public void TestSquareRootOf70()
+        {
+            Squared squared = new AutomatedCodeTesting.Squared();
+            squared.Sqdnumber = 70;
+            var result = squared.Calculate();
+            Assert.AreEqual(368, result, "Sqrt of 70");
+
+        }
 
 
 
